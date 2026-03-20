@@ -1,0 +1,724 @@
+Welcome to vast.ai. If authentication fails, try again after a few seconds, and double check your ssh key.
+Have fun!
+[
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "k-NN",
+    "seed": 42,
+    "auroc": 0.965136,
+    "fpr95": 0.194,
+    "time_s": 0.04293560981750488,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "k-NN",
+    "seed": 123,
+    "auroc": 0.965136,
+    "fpr95": 0.194,
+    "time_s": 0.04293560981750488,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "k-NN",
+    "seed": 456,
+    "auroc": 0.965136,
+    "fpr95": 0.194,
+    "time_s": 0.04293560981750488,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "Mahalanobis",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 5.912391424179077,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "Mahalanobis",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 5.912391424179077,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "Mahalanobis",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 5.912391424179077,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "IsolationForest",
+    "seed": 42,
+    "auroc": 0.43531999999999993,
+    "fpr95": 0.922,
+    "time_s": 0.17527222633361816,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "IsolationForest",
+    "seed": 123,
+    "auroc": 0.43531999999999993,
+    "fpr95": 0.922,
+    "time_s": 0.17527222633361816,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "IsolationForest",
+    "seed": 456,
+    "auroc": 0.43531999999999993,
+    "fpr95": 0.922,
+    "time_s": 0.17527222633361816,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "JEPA-SCORE",
+    "seed": 42,
+    "auroc": 0.7261900000000001,
+    "fpr95": 0.726,
+    "time_s": 611.481255531311,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "JEPA-SCORE",
+    "seed": 123,
+    "auroc": 0.727136,
+    "fpr95": 0.716,
+    "time_s": 591.6950674057007,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "JEPA-SCORE",
+    "seed": 456,
+    "auroc": 0.727836,
+    "fpr95": 0.724,
+    "time_s": 591.4277386665344,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "k-NN",
+    "seed": 42,
+    "auroc": 0.91466,
+    "fpr95": 0.506,
+    "time_s": 0.03270840644836426,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "k-NN",
+    "seed": 123,
+    "auroc": 0.91466,
+    "fpr95": 0.506,
+    "time_s": 0.03270840644836426,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "k-NN",
+    "seed": 456,
+    "auroc": 0.91466,
+    "fpr95": 0.506,
+    "time_s": 0.03270840644836426,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "Mahalanobis",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 6.341134548187256,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "Mahalanobis",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 6.341134548187256,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "Mahalanobis",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 6.341134548187256,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "IsolationForest",
+    "seed": 42,
+    "auroc": 0.633752,
+    "fpr95": 0.892,
+    "time_s": 0.17321038246154785,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "IsolationForest",
+    "seed": 123,
+    "auroc": 0.633752,
+    "fpr95": 0.892,
+    "time_s": 0.17321038246154785,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "IsolationForest",
+    "seed": 456,
+    "auroc": 0.633752,
+    "fpr95": 0.892,
+    "time_s": 0.17321038246154785,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "JEPA-SCORE",
+    "seed": 42,
+    "auroc": 0.60846,
+    "fpr95": 0.938,
+    "time_s": 605.1135137081146,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "JEPA-SCORE",
+    "seed": 123,
+    "auroc": 0.6078,
+    "fpr95": 0.93,
+    "time_s": 606.3607542514801,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "JEPA-SCORE",
+    "seed": 456,
+    "auroc": 0.6087239999999999,
+    "fpr95": 0.928,
+    "time_s": 605.3109681606293,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "k-NN",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 0.11256718635559082,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "k-NN",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 0.11256718635559082,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "k-NN",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 0.11256718635559082,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "Mahalanobis",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 6.786683797836304,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "Mahalanobis",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 6.786683797836304,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "Mahalanobis",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 6.786683797836304,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "IsolationForest",
+    "seed": 42,
+    "auroc": 0.97406,
+    "fpr95": 0.098,
+    "time_s": 0.1737058162689209,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "IsolationForest",
+    "seed": 123,
+    "auroc": 0.97406,
+    "fpr95": 0.098,
+    "time_s": 0.1737058162689209,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "IsolationForest",
+    "seed": 456,
+    "auroc": 0.97406,
+    "fpr95": 0.098,
+    "time_s": 0.1737058162689209,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "JEPA-SCORE",
+    "seed": 42,
+    "auroc": 0.9952279999999999,
+    "fpr95": 0.008,
+    "time_s": 611.0648677349091,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "JEPA-SCORE",
+    "seed": 123,
+    "auroc": 0.995184,
+    "fpr95": 0.008,
+    "time_s": 598.5431880950928,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vits14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "JEPA-SCORE",
+    "seed": 456,
+    "auroc": 0.9952519999999999,
+    "fpr95": 0.008,
+    "time_s": 592.6097104549408,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "k-NN",
+    "seed": 42,
+    "auroc": 0.9757319999999999,
+    "fpr95": 0.108,
+    "time_s": 0.047696828842163086,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "k-NN",
+    "seed": 123,
+    "auroc": 0.9757319999999999,
+    "fpr95": 0.108,
+    "time_s": 0.047696828842163086,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "k-NN",
+    "seed": 456,
+    "auroc": 0.9757319999999999,
+    "fpr95": 0.108,
+    "time_s": 0.047696828842163086,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "Mahalanobis",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 19.47616958618164,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "Mahalanobis",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 19.47616958618164,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "Mahalanobis",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 19.47616958618164,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "IsolationForest",
+    "seed": 42,
+    "auroc": 0.317088,
+    "fpr95": 0.998,
+    "time_s": 0.17255830764770508,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "IsolationForest",
+    "seed": 123,
+    "auroc": 0.317088,
+    "fpr95": 0.998,
+    "time_s": 0.17255830764770508,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "IsolationForest",
+    "seed": 456,
+    "auroc": 0.317088,
+    "fpr95": 0.998,
+    "time_s": 0.17255830764770508,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "JEPA-SCORE",
+    "seed": 42,
+    "auroc": 0.51588,
+    "fpr95": 0.892,
+    "time_s": 613.4689073562622,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "JEPA-SCORE",
+    "seed": 123,
+    "auroc": 0.514252,
+    "fpr95": 0.894,
+    "time_s": 602.8262972831726,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_SVHN",
+    "method": "JEPA-SCORE",
+    "seed": 456,
+    "auroc": 0.512588,
+    "fpr95": 0.89,
+    "time_s": 617.4886248111725,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "k-NN",
+    "seed": 42,
+    "auroc": 0.983064,
+    "fpr95": 0.082,
+    "time_s": 0.03633522987365723,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "k-NN",
+    "seed": 123,
+    "auroc": 0.983064,
+    "fpr95": 0.082,
+    "time_s": 0.03633522987365723,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "k-NN",
+    "seed": 456,
+    "auroc": 0.983064,
+    "fpr95": 0.082,
+    "time_s": 0.03633522987365723,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "Mahalanobis",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 19.7487313747406,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "Mahalanobis",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 19.7487313747406,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "Mahalanobis",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 19.7487313747406,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "IsolationForest",
+    "seed": 42,
+    "auroc": 0.6529880000000001,
+    "fpr95": 0.916,
+    "time_s": 0.18088531494140625,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "IsolationForest",
+    "seed": 123,
+    "auroc": 0.6529880000000001,
+    "fpr95": 0.916,
+    "time_s": 0.18088531494140625,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "IsolationForest",
+    "seed": 456,
+    "auroc": 0.6529880000000001,
+    "fpr95": 0.916,
+    "time_s": 0.18088531494140625,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "JEPA-SCORE",
+    "seed": 42,
+    "auroc": 0.560488,
+    "fpr95": 0.93,
+    "time_s": 610.0258188247681,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "JEPA-SCORE",
+    "seed": 123,
+    "auroc": 0.56056,
+    "fpr95": 0.932,
+    "time_s": 608.3868689537048,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_CIFAR100",
+    "method": "JEPA-SCORE",
+    "seed": 456,
+    "auroc": 0.5596260000000001,
+    "fpr95": 0.936,
+    "time_s": 614.305656671524,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "k-NN",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 0.036195993423461914,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "k-NN",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 0.036195993423461914,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "k-NN",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 0.036195993423461914,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "Mahalanobis",
+    "seed": 42,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 20.767061948776245,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "Mahalanobis",
+    "seed": 123,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 20.767061948776245,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "Mahalanobis",
+    "seed": 456,
+    "auroc": 1.0,
+    "fpr95": 0.0,
+    "time_s": 20.767061948776245,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "IsolationForest",
+    "seed": 42,
+    "auroc": 0.8661239999999999,
+    "fpr95": 0.478,
+    "time_s": 0.1712055206298828,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "IsolationForest",
+    "seed": 123,
+    "auroc": 0.8661239999999999,
+    "fpr95": 0.478,
+    "time_s": 0.1712055206298828,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "IsolationForest",
+    "seed": 456,
+    "auroc": 0.8661239999999999,
+    "fpr95": 0.478,
+    "time_s": 0.1712055206298828,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "JEPA-SCORE",
+    "seed": 42,
+    "auroc": 0.9383,
+    "fpr95": 0.488,
+    "time_s": 612.7778720855713,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "JEPA-SCORE",
+    "seed": 123,
+    "auroc": 0.9380759999999999,
+    "fpr95": 0.496,
+    "time_s": 608.2501575946808,
+    "n": 500
+  },
+  {
+    "model": "dinov2_vitb14",
+    "ood": "CIFAR10_vs_Textures",
+    "method": "JEPA-SCORE",
+    "seed": 456,
+    "auroc": 0.9380160000000002,
+    "fpr95": 0.504,
+    "time_s": 615.0752944946289,
+    "n": 500
+  }
+]

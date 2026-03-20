@@ -132,7 +132,7 @@ This work evaluates JEPA-SCORE from:
 - Adam Hibble for introducing the world models research direction
 - Experiments aided by Claude (Anthropic) for code development and literature review
 - All experimental results, analysis, and conclusions are the author's own
-- Compute provided by Vast.ai (~$15 total)
+- Compute provided by [Vast.ai](https://cloud.vast.ai/?ref_id=104180) (~$15 total)
 
 ## Contact
 

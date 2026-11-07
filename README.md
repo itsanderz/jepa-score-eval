@@ -137,8 +137,9 @@ This work evaluates JEPA-SCORE from:
 ## Contact
 
 - Twitter/X: [@itsanderz](https://x.com/itsanderz)
-- Email: andrew@weareabsurd.co
+- Email: hello@absurdcompany.com
 
 ## License
 
 MIT — use freely, cite if you publish.
+
